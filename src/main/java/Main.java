@@ -4,11 +4,17 @@ public class Main {
         System.out.println("Author: Sajal");
 
         printSth("Hello again world!");
+        AddNums(8, 6);
+
     }
     public static void printSth( String message)
     {
         System.out.println(message);
     }
 
+    public static void AddNums(int a, int b)
+    {
+        System.out.println(a + b);
+    }
 
 }
